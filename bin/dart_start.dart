@@ -35,5 +35,7 @@ void main(List<String> arguments) {
   name9 = 'kim';
   // name9 = 'kim2' final 이기 때문에 수정 불가
 
-
+  //Constant Variables: compile-type constant를 만들어 준다
+  const name10 = 'kim'; // 컴파일 할때 알고있는 값을 사용한다
+  // name10 = 'kim2'; // 수정 안되는 것을 final과 같음
 }
