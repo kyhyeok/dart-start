@@ -28,4 +28,12 @@ void main(List<String> arguments) {
   final name7 = 'kim'; // final은 변수가 수정할 수 없도록 해준다 (상수)
   final String name8 = 'kim'; // type 추가가 가능하다
 
+  //Late Variables
+  late final String name9; // late는 초기 데이터 없이 변수를 선언할 수 있게 해준다
+  // do something, go to api and save the data
+  // print(name9); name9에 아무것도 없기 때문에 접근 불가
+  name9 = 'kim';
+  // name9 = 'kim2' final 이기 때문에 수정 불가
+
+
 }
