@@ -1,4 +1,4 @@
-String sayHello(String name, int age, String country) {
+String sayHello(String name, int age, String country,) {
   return "Hello $name, you are $age, and you come from $country";
 }
 
@@ -16,7 +16,7 @@ String sayHello2({
 String sayHello3({
   required String name,
   required int age,
-  required String country
+  required String country,
 }) {
   return "Hello $name, you are $age, and you come from $country";
 }
